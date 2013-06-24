@@ -1,0 +1,17 @@
+// [PackageDev] target_format: plist, ext: tmLanguage
+    { "name": "Log",
+  "scopeName": "source.log",
+  "fileTypes": ["log"],
+  "uuid": "eb9d3275-4c8c-42fa-ada2-e5ba9ab16c1d",
+
+  "patterns": [
+    {
+      "match": "\\b(ERROR|Error|WARNING|Warning)\\b", 
+      "name": "constant.language.log" 
+    },
+    {
+      "match": "\\d+", 
+      "name": "constant.numeric.log" 
+    }
+  ]
+}
